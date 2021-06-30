@@ -8,6 +8,21 @@
   <packaging>kjar</packaging>
   <name>testbpm1</name>
   <description></description>
+
+	<distributionManagement>
+		<repository>
+			<id>ocp.nexus</id>
+			<name>Release Repository</name>
+			<url>https://nexus.comafi-devops.com/repository/bpm-releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>ocp.nexus</id>
+			<name>Snapshot Repository</name>
+			<url>https://nexus.comafi-devops.com/repository/bpm-snapshots/</url>
+			<layout>default</layout>
+		</snapshotRepository>
+	</distributionManagement>
+
   <dependencies>
     <dependency>
       <groupId>org.kie</groupId>
