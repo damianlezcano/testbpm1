@@ -21,8 +21,8 @@
    <servers>
       <server>
          <id>ocp.nexus</id>
-         <username>admin</username>
-         <password>admin123</password>
+         <username>_srv_pamrh</username>
+         <password>SYcUujNug3HDXjzVvzc8</password>
       </server>
       <server>
          <id>redhat-ga-repository</id>
@@ -77,7 +77,7 @@
          <repositories>
             <repository>
                <id>redhat-ga-repository</id>
-               <url>https://maven.repository.redhat.com/ga</url>
+               <url>https://nexus.comafi-devops.com/repository/redhat-maven/ga</url>
                <releases>
                   <enabled>true</enabled>
                   <updatePolicy>never</updatePolicy>
@@ -88,7 +88,7 @@
             </repository>
             <repository>
                <id>redhat-ea-repository</id>
-               <url>https://maven.repository.redhat.com/earlyaccess/all</url>
+               <url>https://nexus.comafi-devops.com/repository/redhat-maven/all</url>
                <releases>
                   <enabled>true</enabled>
                   <updatePolicy>never</updatePolicy>
@@ -100,19 +100,19 @@
             <repository>
                <id>jboss-public</id>
                <name>JBoss Public Repository Group</name>
-               <url>https://repository.jboss.org/nexus/content/groups/public/</url>
+               <url>https://nexus.comafi-devops.com/repository/jboss.org/content/groups/public/</url>
             </repository>
             <repository>
                <id>central</id>
                <name>Maven Central</name>
-               <url>https://repo1.maven.org/maven2/</url>
+               <url>https://nexus.comafi-devops.com/repository/maven-central/</url>
             </repository>
          </repositories>
 
          <pluginRepositories>
             <pluginRepository>
                <id>redhat-ga-repository</id>
-               <url>https://maven.repository.redhat.com/ga</url>
+               <url>https://nexus.comafi-devops.com/repository/redhat-maven/ga</url>
                <releases>
                   <enabled>true</enabled>
                   <updatePolicy>never</updatePolicy>
@@ -123,7 +123,7 @@
             </pluginRepository>
             <pluginRepository>
                <id>redhat-ea-repository</id>
-               <url>https://maven.repository.redhat.com/earlyaccess/all</url>
+               <url>https://nexus.comafi-devops.com/repository/redhat-maven/all</url>
                <releases>
                   <enabled>true</enabled>
                   <updatePolicy>never</updatePolicy>
@@ -135,12 +135,12 @@
             <pluginRepository>
                <id>jboss-public</id>
                <name>JBoss Public Repository Group</name>
-               <url>https://repository.jboss.org/nexus/content/groups/public</url>
+               <url>https://nexus.comafi-devops.com/repository/jboss.org/content/groups/public/</url>
             </pluginRepository>
             <pluginRepository>
                <id>central</id>
                <name>Maven Central</name>
-               <url>https://repo1.maven.org/maven2/</url>
+               <url>https://nexus.comafi-devops.com/repository/maven-central/</url>
             </pluginRepository>
          </pluginRepositories>
 
@@ -152,3 +152,17 @@
    </activeProfiles>
 
 </settings>
+
+
+
+
+
+
+
+
+[Yesterday 15:26] Urrieta Bordones, Ruben Antonio
+    https://nexus.comafi-devops.com/repository/bpm-group/
+​[Yesterday 15:26] Urrieta Bordones, Ruben Antonio
+    https://nexus.comafi-devops.com/repository/bpm-releases/
+​[Yesterday 15:26] Urrieta Bordones, Ruben Antonio
+    https://nexus.comafi-devops.com/repository/bpm-snapshots/
