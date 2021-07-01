@@ -26,6 +26,8 @@
       </server>
       <server>
          <id>redhat-ga-repository</id>
+         <username>_srv_pamrh</username>
+         <password>SYcUujNug3HDXjzVvzc8</password>
          <configuration>
             <httpConfiguration>
                <all>
@@ -37,6 +39,8 @@
       </server>
       <server>
          <id>redhat-ea-repository</id>
+         <username>_srv_pamrh</username>
+         <password>SYcUujNug3HDXjzVvzc8</password>
          <configuration>
             <httpConfiguration>
                <all>
@@ -48,6 +52,8 @@
       </server>
       <server>
          <id>jboss-public</id>
+         <username>_srv_pamrh</username>
+         <password>SYcUujNug3HDXjzVvzc8</password>
          <configuration>
             <httpConfiguration>
                <all>
@@ -59,6 +65,8 @@
       </server>
       <server>
          <id>central</id>
+         <username>_srv_pamrh</username>
+         <password>SYcUujNug3HDXjzVvzc8</password>
          <configuration>
             <httpConfiguration>
                <all>
@@ -152,17 +160,3 @@
    </activeProfiles>
 
 </settings>
-
-
-
-
-
-
-
-
-[Yesterday 15:26] Urrieta Bordones, Ruben Antonio
-    https://nexus.comafi-devops.com/repository/bpm-group/
-​[Yesterday 15:26] Urrieta Bordones, Ruben Antonio
-    https://nexus.comafi-devops.com/repository/bpm-releases/
-​[Yesterday 15:26] Urrieta Bordones, Ruben Antonio
-    https://nexus.comafi-devops.com/repository/bpm-snapshots/
